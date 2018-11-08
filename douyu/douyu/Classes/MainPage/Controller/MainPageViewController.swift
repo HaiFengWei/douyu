@@ -30,6 +30,24 @@ class MainPageViewController: BaseViewController {
         
         // Do any additional setup after loading the view.
     }
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // 测试线程池并发数量控制
+        let pool = HFDispatchPool.init(defaultPoolForQOS: DispatchQoS.userInitiated)
+        for index:Int in 0...100 {
+            let queue = pool.queue
+            queue?.async {
+                if index%2==0 {
+                    print("双数--->\(index)---\(Thread.current)")
+                }
+                else {
+                    print("单数--->\(index)---\(Thread.current)")
+                }
+                
+            }
+        }
+    }
 
 }
 

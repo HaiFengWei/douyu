@@ -17,6 +17,7 @@
 		893798AE2190458600A1A884 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893798AD2190458600A1A884 /* MainPageViewController.swift */; };
 		893798B42190523400A1A884 /* TitlePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893798B32190523400A1A884 /* TitlePageView.swift */; };
 		893798B8219054AD00A1A884 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893798B7219054AD00A1A884 /* common.swift */; };
+		89FCE7502192E76F00AA4B96 /* HFDispatchPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCE74F2192E76F00AA4B96 /* HFDispatchPool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		893798AD2190458600A1A884 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		893798B32190523400A1A884 /* TitlePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePageView.swift; sourceTree = "<group>"; };
 		893798B7219054AD00A1A884 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		89FCE74F2192E76F00AA4B96 /* HFDispatchPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFDispatchPool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		893798A32190449F00A1A884 /* MyParty */ = {
 			isa = PBXGroup;
 			children = (
+				89FCE74E2192E75900AA4B96 /* HFDispatchPool */,
 				893798AF21904D5800A1A884 /* TitlePage */,
 			);
 			path = MyParty;
@@ -207,6 +210,14 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		89FCE74E2192E75900AA4B96 /* HFDispatchPool */ = {
+			isa = PBXGroup;
+			children = (
+				89FCE74F2192E76F00AA4B96 /* HFDispatchPool.swift */,
+			);
+			path = HFDispatchPool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,6 +296,7 @@
 				8937988E219043A300A1A884 /* AppDelegate.swift in Sources */,
 				893798B42190523400A1A884 /* TitlePageView.swift in Sources */,
 				893798A5219044C600A1A884 /* BaseTabBarController.swift in Sources */,
+				89FCE7502192E76F00AA4B96 /* HFDispatchPool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
