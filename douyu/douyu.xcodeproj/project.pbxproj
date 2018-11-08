@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891E94F42194260A00416006 /* ContentPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E94F32194260A00416006 /* ContentPageView.swift */; };
+		891E94F7219435BA00416006 /* UIColoe_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E94F6219435BA00416006 /* UIColoe_extension.swift */; };
 		8937988E219043A300A1A884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937988D219043A300A1A884 /* AppDelegate.swift */; };
 		89379890219043A300A1A884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8937988F219043A300A1A884 /* ViewController.swift */; };
 		89379893219043A300A1A884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89379891219043A300A1A884 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		891E94F32194260A00416006 /* ContentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPageView.swift; sourceTree = "<group>"; };
+		891E94F6219435BA00416006 /* UIColoe_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColoe_extension.swift; sourceTree = "<group>"; };
 		8937988A219043A300A1A884 /* douyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8937988D219043A300A1A884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8937988F219043A300A1A884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		891E94F521942F2300416006 /* Support file */ = {
+			isa = PBXGroup;
+			children = (
+				8937988D219043A300A1A884 /* AppDelegate.swift */,
+				89379894219043A600A1A884 /* Assets.xcassets */,
+				89379896219043A600A1A884 /* LaunchScreen.storyboard */,
+			);
+			path = "Support file";
+			sourceTree = "<group>";
+		};
 		89379881219043A300A1A884 = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +84,9 @@
 				893798A62190453A00A1A884 /* Classes */,
 				893798A32190449F00A1A884 /* MyParty */,
 				8937989F2190449700A1A884 /* Base */,
-				8937988D219043A300A1A884 /* AppDelegate.swift */,
+				891E94F521942F2300416006 /* Support file */,
 				8937988F219043A300A1A884 /* ViewController.swift */,
 				89379891219043A300A1A884 /* Main.storyboard */,
-				89379894219043A600A1A884 /* Assets.xcassets */,
-				89379896219043A600A1A884 /* LaunchScreen.storyboard */,
 				89379899219043A600A1A884 /* Info.plist */,
 			);
 			path = douyu;
@@ -190,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				893798B32190523400A1A884 /* TitlePageView.swift */,
+				891E94F32194260A00416006 /* ContentPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				893798B62190548900A1A884 /* Common */,
+				891E94F6219435BA00416006 /* UIColoe_extension.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -295,7 +309,9 @@
 				893798AC2190455E00A1A884 /* BaseViewController.swift in Sources */,
 				8937988E219043A300A1A884 /* AppDelegate.swift in Sources */,
 				893798B42190523400A1A884 /* TitlePageView.swift in Sources */,
+				891E94F42194260A00416006 /* ContentPageView.swift in Sources */,
 				893798A5219044C600A1A884 /* BaseTabBarController.swift in Sources */,
+				891E94F7219435BA00416006 /* UIColoe_extension.swift in Sources */,
 				89FCE7502192E76F00AA4B96 /* HFDispatchPool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
