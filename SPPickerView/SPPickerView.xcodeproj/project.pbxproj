@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8940EF2C2199495700B1E997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF2B2199495700B1E997 /* AppDelegate.m */; };
+		8940EF2F2199495700B1E997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF2E2199495700B1E997 /* ViewController.m */; };
+		8940EF322199495700B1E997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8940EF302199495700B1E997 /* Main.storyboard */; };
+		8940EF342199495800B1E997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8940EF332199495800B1E997 /* Assets.xcassets */; };
+		8940EF372199495800B1E997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8940EF352199495800B1E997 /* LaunchScreen.storyboard */; };
+		8940EF3A2199495800B1E997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF392199495800B1E997 /* main.m */; };
+		8940EF432199495E00B1E997 /* SPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF422199495E00B1E997 /* SPPickerView.m */; };
+		8940EF462199553000B1E997 /* SPDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF452199553000B1E997 /* SPDatePicker.m */; };
+		8940EF7D219A6E5C00B1E997 /* NSDate+SPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF7C219A6E5C00B1E997 /* NSDate+SPPickerView.m */; };
+		8940EF80219A78F500B1E997 /* NSDateFormatter+SPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF7F219A78F500B1E997 /* NSDateFormatter+SPPickerView.m */; };
+		8940EF83219AAAC200B1E997 /* SPDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940EF82219AAAC200B1E997 /* SPDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8940EF272199495700B1E997 /* SPPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8940EF2A2199495700B1E997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8940EF2B2199495700B1E997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8940EF2D2199495700B1E997 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8940EF2E2199495700B1E997 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8940EF312199495700B1E997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8940EF332199495800B1E997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8940EF362199495800B1E997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8940EF382199495800B1E997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8940EF392199495800B1E997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8940EF412199495E00B1E997 /* SPPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPickerView.h; sourceTree = "<group>"; };
+		8940EF422199495E00B1E997 /* SPPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPickerView.m; sourceTree = "<group>"; };
+		8940EF442199553000B1E997 /* SPDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDatePicker.h; sourceTree = "<group>"; };
+		8940EF452199553000B1E997 /* SPDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDatePicker.m; sourceTree = "<group>"; };
+		8940EF7B219A6E5C00B1E997 /* NSDate+SPPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+SPPickerView.h"; sourceTree = "<group>"; };
+		8940EF7C219A6E5C00B1E997 /* NSDate+SPPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SPPickerView.m"; sourceTree = "<group>"; };
+		8940EF7E219A78F500B1E997 /* NSDateFormatter+SPPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SPPickerView.h"; sourceTree = "<group>"; };
+		8940EF7F219A78F500B1E997 /* NSDateFormatter+SPPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SPPickerView.m"; sourceTree = "<group>"; };
+		8940EF81219AAAC200B1E997 /* SPDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDatePickerView.h; sourceTree = "<group>"; };
+		8940EF82219AAAC200B1E997 /* SPDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDatePickerView.m; sourceTree = "<group>"; };
+		8940EF84219AAF3E00B1E997 /* SPPickerViewCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPickerViewCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8940EF242199495700B1E997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8940EF1E2199495700B1E997 = {
+			isa = PBXGroup;
+			children = (
+				8940EF292199495700B1E997 /* SPPickerView */,
+				8940EF282199495700B1E997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8940EF282199495700B1E997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8940EF272199495700B1E997 /* SPPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8940EF292199495700B1E997 /* SPPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				8940EF402199495E00B1E997 /* SPPickerView */,
+				8940EF2A2199495700B1E997 /* AppDelegate.h */,
+				8940EF2B2199495700B1E997 /* AppDelegate.m */,
+				8940EF2D2199495700B1E997 /* ViewController.h */,
+				8940EF2E2199495700B1E997 /* ViewController.m */,
+				8940EF302199495700B1E997 /* Main.storyboard */,
+				8940EF332199495800B1E997 /* Assets.xcassets */,
+				8940EF352199495800B1E997 /* LaunchScreen.storyboard */,
+				8940EF382199495800B1E997 /* Info.plist */,
+				8940EF392199495800B1E997 /* main.m */,
+			);
+			path = SPPickerView;
+			sourceTree = "<group>";
+		};
+		8940EF402199495E00B1E997 /* SPPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				8940EF412199495E00B1E997 /* SPPickerView.h */,
+				8940EF422199495E00B1E997 /* SPPickerView.m */,
+				8940EF81219AAAC200B1E997 /* SPDatePickerView.h */,
+				8940EF82219AAAC200B1E997 /* SPDatePickerView.m */,
+				8940EF442199553000B1E997 /* SPDatePicker.h */,
+				8940EF452199553000B1E997 /* SPDatePicker.m */,
+				8940EF7B219A6E5C00B1E997 /* NSDate+SPPickerView.h */,
+				8940EF7C219A6E5C00B1E997 /* NSDate+SPPickerView.m */,
+				8940EF7E219A78F500B1E997 /* NSDateFormatter+SPPickerView.h */,
+				8940EF7F219A78F500B1E997 /* NSDateFormatter+SPPickerView.m */,
+				8940EF84219AAF3E00B1E997 /* SPPickerViewCommon.h */,
+			);
+			path = SPPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8940EF262199495700B1E997 /* SPPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8940EF3D2199495800B1E997 /* Build configuration list for PBXNativeTarget "SPPickerView" */;
+			buildPhases = (
+				8940EF232199495700B1E997 /* Sources */,
+				8940EF242199495700B1E997 /* Frameworks */,
+				8940EF252199495700B1E997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPPickerView;
+			productName = SPPickerView;
+			productReference = 8940EF272199495700B1E997 /* SPPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8940EF1F2199495700B1E997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sepeak;
+				TargetAttributes = {
+					8940EF262199495700B1E997 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8940EF222199495700B1E997 /* Build configuration list for PBXProject "SPPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8940EF1E2199495700B1E997;
+			productRefGroup = 8940EF282199495700B1E997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8940EF262199495700B1E997 /* SPPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8940EF252199495700B1E997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8940EF372199495800B1E997 /* LaunchScreen.storyboard in Resources */,
+				8940EF342199495800B1E997 /* Assets.xcassets in Resources */,
+				8940EF322199495700B1E997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8940EF232199495700B1E997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8940EF7D219A6E5C00B1E997 /* NSDate+SPPickerView.m in Sources */,
+				8940EF2F2199495700B1E997 /* ViewController.m in Sources */,
+				8940EF462199553000B1E997 /* SPDatePicker.m in Sources */,
+				8940EF432199495E00B1E997 /* SPPickerView.m in Sources */,
+				8940EF3A2199495800B1E997 /* main.m in Sources */,
+				8940EF2C2199495700B1E997 /* AppDelegate.m in Sources */,
+				8940EF80219A78F500B1E997 /* NSDateFormatter+SPPickerView.m in Sources */,
+				8940EF83219AAAC200B1E997 /* SPDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8940EF302199495700B1E997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8940EF312199495700B1E997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8940EF352199495800B1E997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8940EF362199495800B1E997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8940EF3B2199495800B1E997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8940EF3C2199495800B1E997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8940EF3E2199495800B1E997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNW8779W53;
+				INFOPLIST_FILE = SPPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sepeak.SPPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8940EF3F2199495800B1E997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNW8779W53;
+				INFOPLIST_FILE = SPPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sepeak.SPPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8940EF222199495700B1E997 /* Build configuration list for PBXProject "SPPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8940EF3B2199495800B1E997 /* Debug */,
+				8940EF3C2199495800B1E997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8940EF3D2199495800B1E997 /* Build configuration list for PBXNativeTarget "SPPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8940EF3E2199495800B1E997 /* Debug */,
+				8940EF3F2199495800B1E997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8940EF1F2199495700B1E997 /* Project object */;
+}

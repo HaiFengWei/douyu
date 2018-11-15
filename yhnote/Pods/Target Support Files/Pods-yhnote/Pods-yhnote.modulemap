@@ -1,0 +1,6 @@
+framework module Pods_yhnote {
+  umbrella header "Pods-yhnote-umbrella.h"
+
+  export *
+  module * { export * }
+}
